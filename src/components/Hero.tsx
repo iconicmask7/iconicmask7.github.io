@@ -169,12 +169,12 @@ export const Hero = () => {
             </Button>
           </motion.div>
 
-          {/* Stats */}
+          {/* Stats Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="grid grid-cols-3 gap-8 max-w-2xl mx-auto pt-12"
+            className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto pt-12"
           >
             {stats.map((stat, index) => (
               <div
