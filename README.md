@@ -51,7 +51,7 @@ The contact form submits to Formspree. Use an environment variable to keep the e
 1. Create `.env.local` in the project root:
 
 ```
-VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/xanpkrap
+VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/<your endpoint>
 ```
 
 2. In the code, the fetch uses `import.meta.env.VITE_FORMSPREE_ENDPOINT` (Vite env prefix). Example:
