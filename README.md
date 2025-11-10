@@ -160,11 +160,3 @@ If you want me to automatically sync resume updates (FlowCV → repo), we can ad
 This repository is open-source for portfolio/demo purposes. Use and adapt freely — please give credit if reused.
 
 ---
-
-If you want, I can:
-
-* Add a **Deploy → GitHub Actions** workflow that builds and publishes on every push to `main`.
-* Generate a **social preview image** (`preview.png`) matching your resume style (blue accent, name, and headline).
-* Create a **thank-you page** and wire `_redirect` for Formspree submissions.
-
-Which of those should I add next?
