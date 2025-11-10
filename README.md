@@ -1,6 +1,6 @@
 # Suraj S Pillai — Personal Portfolio (Website)
 
-**Live preview (Lovable):** [https://lovable.dev/projects/9d67dfa3-7212-42c6-ac32-74fbe42a79ce](https://lovable.dev/projects/9d67dfa3-7212-42c6-ac32-74fbe42a79ce)
+
 
 This repository contains the source for my personal portfolio website — a modern, responsive, and slightly-stylized single-page site built with **Vite + React + TypeScript**, styled with **Tailwind CSS** and **shadcn-ui**. The site showcases my resume, featured projects, and a contact form (Formspree integration). The copy and structure are optimized for recruiters and ATS parsing while still looking polished for human visitors.
 
