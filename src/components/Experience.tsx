@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Briefcase, MapPin, Calendar } from "lucide-react";
+import { MapPin, Calendar } from "lucide-react";
 
 const experiences = [
   {
@@ -7,47 +7,55 @@ const experiences = [
     company: "Cybios Technologies Pvt Ltd",
     role: "Mobile App Developer",
     location: "Ernakulam, India",
-    duration: "Feb 2024 – Present",
+    duration: "Jan 2024 – Present",
     type: "Current",
     achievements: [
       {
-        text: "Led the design, development, and shipping of Android and iOS applications on Google Play Store and Apple App Store, adhering to the full Software Development Lifecycle (SDLC)",
+        text: "Led the design, development, and shipping of Android and iOS applications on Google Play Store and Apple App Store, covering the full Software Development Lifecycle (SDLC) from idea to release.",
         metrics: ["SDLC", "Android", "iOS"],
       },
       {
-        text: "Improved overall app responsiveness by 15% through advanced performance profiling, widget rebuild optimization, and memory leak detection",
-        metrics: ["15% improvement"],
+        text: "Built a robust data layer by wiring Django REST API calls into a clear request/response flow, adding layered caching with Dio and a caching fallback flow using Hive, so the app stays usable even on poor networks.",
+        metrics: ["Django", "REST API", "Dio", "Hive"],
       },
       {
-        text: "Architected and applied a scalable, modular architecture using Flutter Riverpod, reducing code boilerplate by 40% and minimizing state management regressions",
-        metrics: ["40% reduction", "Riverpod"],
+        text: "Used Firebase and Django as core backend data stores across multiple production apps, and integrated third-party services including phone.email for secure phone/email authentication, Pushy for high-reliability push notifications, and Razorpay for seamless in-app payment flows.",
+        metrics: ["Firebase", "Django", "phone.email", "Pushy", "Razorpay"],
       },
       {
-        text: "Built a robust data layer by incorporating Django REST APIs with advanced caching strategies (Dio), local persistence (Hive), and graceful error handling, ensuring 99.9% uptime",
-        metrics: ["99.9% uptime", "Django", "Hive"],
+        text: "Designed a custom responsive configuration system for Flutter that centralizes screen adaptation rules, avoiding fragile, scattered layout logic and reducing the need for external packages like flutter_screenutil.",
+        metrics: ["Responsive UI", "Flutter"],
       },
       {
-        text: "Actively participated in an Agile/Scrum environment, contributing to daily stand-ups, sprint planning, and retrospectives to deliver high-quality releases bi-weekly",
-        metrics: ["Agile/Scrum"],
+        text: "Developed lightweight in-app gamification experiences using the Flutter Flame game engine (mini-games, animated meters) to make routine flows feel more rewarding and increase user engagement.",
+        metrics: ["Gamification", "Flame"],
       },
       {
-        text: "Designed a custom responsive configuration system for Flutter, providing centralized control over screen adaptation logic",
-        metrics: ["Responsive UI"],
+        text: "Conducted authorized web-application penetration tests (WAPT) and red team exercises, and regularly joined internal and public CTF challenges, documenting critical issues with clear impact, risk ratings, and practical fixes.",
+        metrics: ["Security Testing", "WAPT", "CTF"],
       },
       {
-        text: "Conducted authorized web-application penetration tests (WAPT) and red-team exercises, identifying and documenting critical vulnerabilities",
-        metrics: ["Security Testing"],
+        text: "Implemented deep linking with go_router so users can jump directly into key app screens (offers, order details, support) from links and notifications, improving re-engagement and overall navigation experience.",
+        metrics: ["Deep Linking", "go_router"],
       },
     ],
     techStack: [
-      "Riverpod",
-      "Django",
       "Flutter",
       "Dart",
-      "Agile",
-      "Performance",
+      "Riverpod",
+      "Django",
+      "REST API",
+      "Firebase",
+      "Hive",
+      "Dio",
+      "phone.email",
+      "Pushy",
+      "Razorpay",
+      "Flame",
+      "go_router",
       "Security",
       "SDLC",
+      "Agile/Scrum",
     ],
   },
   {
@@ -59,34 +67,35 @@ const experiences = [
     type: "Internship",
     achievements: [
       {
-        text: "Built and launched production-ready mobile applications, resulting in a 30% improvement in user engagement metrics post-launch",
+        text: "Built and launched production-ready mobile applications, resulting in a 30% improvement in user engagement metrics post-launch.",
         metrics: ["30% improvement"],
       },
       {
-        text: "Connected Firebase services, including Authentication, Firestore, and Realtime Database, for secure user management and real-time data synchronization",
+        text: "Connected Firebase services, including Authentication, Firestore, and Realtime Database, for secure user management and real-time data synchronization.",
         metrics: ["Firebase", "Authentication"],
       },
       {
-        text: "Leveraged GetX for state management, dependency injection, and route management, reducing code complexity by 25%",
+        text: "Leveraged GetX for state management, dependency injection, and route management, reducing code complexity by 25%.",
         metrics: ["25% reduction", "GetX"],
       },
       {
-        text: "Collaborated closely with UI/UX designers to translate Figma mockups into pixel-perfect, responsive, and animated layouts using Flutter widgets",
+        text: "Collaborated closely with UI/UX designers to translate Figma mockups into pixel-perfect, responsive, and animated layouts using Flutter widgets.",
         metrics: ["Figma", "UI/UX"],
       },
       {
-        text: "Employed essential third-party Flutter plugins, including google_maps_flutter and location, to enhance app functionality with geolocation and interactive maps",
+        text: "Employed essential third-party Flutter plugins, including google_maps_flutter and location, to enhance app functionality with geolocation and interactive maps.",
         metrics: ["Google Maps"],
       },
     ],
     techStack: [
+      "Flutter",
+      "Dart",
       "GetX",
       "Firebase",
       "Figma",
       "Google Maps",
       "UI/UX",
       "Animations",
-      "Flutter",
     ],
   },
 ];
