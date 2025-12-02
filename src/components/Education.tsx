@@ -19,7 +19,7 @@ const education = [
   {
     degree: "SSLC",
     institution: "HSS Chettikulangara",
-    duration: "2016 – 2018",
+    duration: "2017 – 2018",
     grade: "90%",
     percentage: 90,
   },
