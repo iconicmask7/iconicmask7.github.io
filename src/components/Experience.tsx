@@ -4,11 +4,58 @@ import { MapPin, Calendar } from "lucide-react";
 const experiences = [
   {
     id: 1,
+    company: "SLBS Marklance Infotech Pvt Ltd",
+    role: "Flutter Developer",
+    location: "Ernakulam, India",
+    duration: "Jan 2026 – Present",
+    type: "Current",
+    achievements: [
+      {
+        text: "Deployed production-ready applications to both Google Play Store and Apple App Store, utilizing Xcode and Bitbucket for robust version control and deployment pipelines.",
+        metrics: ["Google Play", "App Store", "Bitbucket"],
+      },
+      {
+        text: "Architected robust data layers utilizing Firebase and PHP Laravel as core backends, integrating and testing complex REST APIs via Postman.",
+        metrics: ["Firebase", "Laravel", "REST API"],
+      },
+      {
+        text: "Managed multiple simultaneous application lifecycles, balancing internal company products with fast-paced client deliverables in a collaborative team environment.",
+        metrics: ["Lifecycle Management", "Team Collaboration"],
+      },
+      {
+        text: "Implemented predictable and scalable state management using both BLoC and Riverpod, and successfully integrated Razorpay for seamless, secure in-app payments.",
+        metrics: ["BLoC", "Riverpod", "Razorpay"],
+      },
+      {
+        text: "Led weekly client communications to gather functional requirements, provide technical updates, and ensure precise alignment with business needs.",
+        metrics: ["Client Communication"],
+      },
+      {
+        text: "Ensured pixel-perfect, highly responsive UIs across all devices using flutter_screenutil and SafeArea, while handling complex page routing and deep linking via go_router.",
+        metrics: ["Responsive UI", "go_router"],
+      },
+    ],
+    techStack: [
+      "Flutter",
+      "Dart",
+      "BLoC",
+      "Riverpod",
+      "Laravel",
+      "Firebase",
+      "REST API",
+      "Razorpay",
+      "go_router",
+      "Xcode",
+      "Bitbucket",
+    ],
+  },
+  {
+    id: 2,
     company: "Cybios Technologies Pvt Ltd",
     role: "Mobile App Developer",
     location: "Ernakulam, India",
-    duration: "Jan 2024 – Present",
-    type: "Current",
+    duration: "Jan 2024 – Dec 2025",
+    type: "Full-time",
     achievements: [
       {
         text: "Led the design, development, and shipping of Android and iOS applications on Google Play Store and Apple App Store, covering the full Software Development Lifecycle (SDLC) from idea to release.",
@@ -59,7 +106,7 @@ const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     company: "Luminar Technolab",
     role: "Flutter Developer Intern",
     location: "Ernakulam, India",
@@ -130,9 +177,8 @@ export const Experience = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
-                className={`relative md:w-1/2 ${
-                  index % 2 === 0 ? "md:pr-12 md:ml-0" : "md:pl-12 md:ml-auto"
-                }`}
+                className={`relative md:w-1/2 ${index % 2 === 0 ? "md:pr-12 md:ml-0" : "md:pl-12 md:ml-auto"
+                  }`}
               >
                 {/* Timeline Dot */}
                 <div className="hidden md:block absolute top-8 w-4 h-4 rounded-full bg-primary border-4 border-background left-1/2 transform -translate-x-1/2" />
@@ -160,11 +206,10 @@ export const Experience = () => {
                       </div>
                     </div>
                     <div
-                      className={`px-3 py-1 rounded-full text-xs font-semibold ${
-                        exp.type === "Current"
+                      className={`px-3 py-1 rounded-full text-xs font-semibold ${exp.type === "Current"
                           ? "bg-success/10 text-success border border-success/20"
                           : "bg-muted/50 text-muted-foreground"
-                      }`}
+                        }`}
                     >
                       {exp.type}
                     </div>

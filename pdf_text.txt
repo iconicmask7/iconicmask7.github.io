@@ -1,0 +1,126 @@
+SURAJ S PILLAI
+ Flutter Developer  Mobile App Engineer  Cross Platform Specialist
+ surajspillai57@gmail.com | +91 9567846357 | LinkedIn | GitHub
+ Ernakulam, Kerala, India
+PROFESSIONAL SUMMARY
+Accomplished Flutter Developer with 2+ years of experience in the complete mobile applications development lifecycle, from
+concept to deployment. Expert in Dart, Riverpod, and BLoC for scalable state management. Proven ability to boost app
+performance by 15% and user engagement by 30% through detailed code optimization and feature implementation. Seeking
+to leverage expertise in cross-platform development and backend integration (REST APIs, Firebase, Laravel) to build
+high-impact mobile solutions.
+WORK EXPERIENCE
+Mobile App Developer | SLBS Marklance Infotech Pvt Ltd
+Ernakulam, India | Jan 2026 – Present
+ Deployed production-ready applications to both Google Play Store and Apple App Store, utilizing Xcode and Bitbucket
+for robust version control and deployment pipelines.
+ Architected robust data layers utilizing Firebase and PHP Laravel as core backends, integrating and testing complex
+REST APIs via Postman.
+ Managed multiple simultaneous application lifecycles, balancing internal company products with fast-paced client
+deliverables in a collaborative team environment.
+ Implemented predictable and scalable state management using both BLoC and Riverpod, and successfully integrated
+Razorpay for seamless, secure in-app payments.
+ Led weekly client communications to gather functional requirements, provide technical updates, and ensure precise
+alignment with business needs.
+ Ensured pixel-perfect, highly responsive UIs across all devices using flutter_screenutil and SafeArea, while handling
+complex page routing and deep linking via go_router.
+Mobile App Developer | Cybios Technologies Pvt Ltd
+Ernakulam, India | Jan 2024 – Dec 2025
+ Led the design, development, and shipping of Android and iOS applications on Google Play Store and Apple App Store,
+covering the full Software Development Lifecycle (SDLC) from idea to release.
+ Built a robust data layer by wiring Django REST API calls into a clear request/response flow, adding layered caching
+with Dio and a caching fallback flow using Hive, so the app stays usable even on poor networks.
+ Used Firebase and Django as core backend data stores across multiple production apps, and integrated third-party
+services including phone.email for secure phone/email authentication, Pushy for high-reliability push notifications, and
+Razorpay for seamless in-app payment flows.
+ Developed lightweight in-app gamification experiences using the Flutter Flame game engine (mini-games, animated
+meters) to make routine flows feel more rewarding and increase user engagement.
+ Designed a custom responsive configuration system for Flutter that centralizes screen adaptation rules, avoiding
+fragile, scattered layout logic and reducing the need for external packages like flutter_screenutil.
+ Conducted authorized web-application penetration tests (WAPT) and red team exercises, and regularly joined internal
+and public CTF challenges, documenting critical issues with clear impact, risk ratings, and practical fixes.
+ Implemented deep linking with go_router so users can jump directly into key app screens (offers, order details, support)
+from links and notifications, improving re-engagement and overall navigation experience.
+Flutter Developer Intern | Luminar Technolab
+Ernakulam, India | Jun 2023 – Dec 2023
+ Built and launched production-ready mobile applications, resulting in a 30% improvement in user engagement metrics
+post-launch.
+ Connected Firebase services, including Authentication, Firestore, and Realtime Database, for secure user management
+and real-time data synchronization across clients.
+ Collaborated closely with UI/UX designers to translate Figma mockups into pixel-perfect, responsive, and animated
+layouts using Flutter widgets.
+ Leveraged GetX for state management, dependency injection, and route management, reducing code complexity by
+25% compared to previous MVC patterns.
+ Employed essential third-party Flutter plugins, including google_maps_flutter and location, to enhance app functionality
+with geolocation, routing, and interactive maps.
+
+TECHNICAL SKILLS
+Backend & Database: Firebase, REST APIs, Laravel, Django, SQLite, Hive, Shared Preferences
+Core Flutter & Mobile: Flutter Framework, Widget Lifecycle, Responsive UI, Animations, Xcode, Platform Channels
+State Management: Riverpod, BLoC/Cubit, Provider, GetX
+DevOps & Tools: Git, Bitbucket, GitHub Actions, CI/CD, Postman, Figma, Android Studio, VS Code
+Programming Languages: Dart (Expert), PHP (Intermediate), Python (Intermediate), Kotlin (Beginner), Swift (Beginner)
+Soft Skills: Agile/Scrum Methodologies, Client Communication, Team Collaboration, Code Review
+Architecture & Testing: Clean Architecture (MVVM), TDD, Unit Testing, Widget Testing, Integration Testing
+PROJECTS
+SLBS LMS (Live on Play Store & App Store) | View App
+ Engineered a fully featured Learning Management System (LMS) application tailored for students and academic
+institutions.
+ Developed comprehensive modules including automated attendance tracking, online and supplementary examinations,
+and secure certification generation.
+ Integrated live and recorded online video session capabilities to support remote and hybrid learning environments.
+Home Hope (Healthcare App - In Development)
+ Architecting a massive, feature-rich healthcare ecosystem designed to unify medical fields under a single platform with
+10+ distinct user roles (Doctor, Nurse, Ayush, Medical Supplier, Patient, etc.).
+ Implementing a complex geolocation service to handle real-time GPS location fetching for routing and matching nearby
+home visit services.
+ Integrating hybrid consultation features supporting online telehealth, offline clinic visits, and home healthcare, backed by
+a secure payment gateway.
+Shrimp App (E-commerce)
+ Architected a multi-role (Seller, Buyer, Admin and additional roles) e-commerce app using Django REST API and
+Riverpod, improving state predictability.
+ Introduced Firebase Push Notifications and employed Flutter Flavors for efficient build management and role-specific
+functionality.
+Ecommerce App (Full-Featured)
+ Developed a full-featured e-commerce app with Django REST API, Riverpod, product catalogs, cart management, and
+smooth animations.
+ Merged multiple third-party plugins for geolocation, mapping, and routing to create an intuitive, high-performance mobile
+application.
+Meals App (Riverpod)
+ Configured a recipe planner with Riverpod for reactive UI updates and a filtering system for dietary preferences.
+Tourism App (Firebase)
+ Built a location-aware tourism guide with a Firebase backend for real-time updates on destinations and events.
+ Implemented offline caching using Hive to ensure seamless access to information without an internet connection.
+Expense Tracker (SQLite)
+ Created a comprehensive budgeting application using SQLite for robust, local-first financial data management.
+ Combined graphical summaries with charts and visualizations to help users analyze spending patterns effectively.
+Farmers Fresh Zone (Marketplace)
+ Created a farmer-consumer marketplace with real-time order tracking, inventory management, and secure payment
+integration.
+ Constructed a comprehensive admin panel for product and user management.
+Music Player (Local State)
+ Developed a full-featured audio player with playlist management, persistent state using Shared Preferences, and
+background playback.
+ Crafted custom audio controls and saved user preferences and history locally.
+EDUCATION
+B.Sc. in Computer Science, University of Kerala | 2020 – 2023 | 6.1 CGPA
+Higher Secondary (Computer Science), St. John's HSS Mattom | 2018 – 2020 | 77%
+
+SSLC, HSS Chettikulangara | 2017 – 2018 | 90%
+CERTIFICATIONS
+Flutter & Dart - The Complete Guide [2024 Edition], Udemy | Jan 2024
+Covered advanced topics including state management (BLoC, Riverpod), animations, and performance optimization.
+Flutter for Beginners, Great learning
+Comprehensive introduction covering Flutter and Dart fundamentals, widget architecture, and state management basics.
+NACTEC Certification in Flutter
+Recognized for excellence in cross-platform app development.
+Flutter Hands-on Training, Luminar Technolab
+Gained practical experience in full-stack app development, from UI design to backend integration.
+Certificate of Participation, Internship Studio
+Enhanced professional skills in teamwork, communication, and project management in a corporate environment.
+ChatGPT & AI Hacks with MS Office, Skill Nation
+Sharpened skills in integrating AI tools with MS Office for enhanced productivity and workflow automation.
+DECLARATION & AVAILABILITY
+As a dedicated Mobile Application Engineer, I am actively seeking mid-level to senior Flutter Developer opportunities. I am
+committed to writing clean, scalable, and testable code to build modern, high-performance UI experiences. Available for
+immediate interview and open to relocation for the right role.
+

@@ -6,9 +6,33 @@ import { Button } from "./ui/button";
 const projects = [
   {
     id: 1,
+    name: "SLBS LMS",
+    subtitle: "Learning Management System",
+    featured: true,
+    description:
+      "Engineered a fully featured LMS application tailored for students and academic institutions. Developed automated attendance tracking, online examinations, and secure certification. Integrated live and recorded online video session capabilities.",
+    techStack: ["Flutter", "Live Video", "Attendance Tracking"],
+    category: "Education",
+    gradient: "from-blue-600 to-indigo-600",
+    playStore: "https://play.google.com/store/apps/details?id=com.slbs.app&pcampaignid=web_share",
+  },
+  {
+    id: 2,
+    name: "Home Hope",
+    subtitle: "Healthcare Ecosystem",
+    featured: true,
+    description:
+      "Architecting a feature-rich healthcare ecosystem to unify medical fields under a single platform with 10+ user roles. Implementing real-time GPS location fetching and integrating hybrid consultation features supporting online telehealth with secure payment.",
+    techStack: ["Flutter", "Geolocation", "Telehealth", "Payment Gateway"],
+    category: "Healthcare",
+    gradient: "from-emerald-500 to-teal-500",
+    github: "https://github.com/iconicmask7/",
+  },
+  {
+    id: 3,
     name: "Shrimp App",
     subtitle: "E-commerce Platform",
-    featured: true,
+    featured: false,
     description:
       "Architected a multi-role (Seller, Buyer, Admin) e-commerce app using Django REST API and Riverpod. Introduced Firebase Push Notifications and employed Flutter Flavors for efficient build management.",
     techStack: [
@@ -20,9 +44,10 @@ const projects = [
     ],
     category: "E-commerce",
     gradient: "from-blue-500 to-cyan-500",
+    github: "https://github.com/iconicmask7/",
   },
   {
-    id: 2,
+    id: 4,
     name: "Ecommerce App",
     subtitle: "Full-Featured",
     description:
@@ -30,9 +55,10 @@ const projects = [
     techStack: ["Django REST", "Riverpod", "Google Maps", "Animations"],
     category: "E-commerce",
     gradient: "from-purple-500 to-pink-500",
+    github: "https://github.com/iconicmask7/",
   },
   {
-    id: 3,
+    id: 5,
     name: "Tourism App",
     subtitle: "Firebase Backend",
     description:
@@ -40,9 +66,10 @@ const projects = [
     techStack: ["Firebase", "Hive", "Google Maps", "Location Services"],
     category: "Travel",
     gradient: "from-green-500 to-teal-500",
+    github: "https://github.com/iconicmask7/",
   },
   {
-    id: 4,
+    id: 6,
     name: "Expense Tracker",
     subtitle: "SQLite Database",
     description:
@@ -50,9 +77,10 @@ const projects = [
     techStack: ["SQLite", "Charts", "Data Visualization"],
     category: "Finance",
     gradient: "from-orange-500 to-red-500",
+    github: "https://github.com/iconicmask7/",
   },
   {
-    id: 5,
+    id: 7,
     name: "Meals App",
     subtitle: "Riverpod State Management",
     description:
@@ -60,9 +88,10 @@ const projects = [
     techStack: ["Riverpod", "Hive", "Animations", "UI/UX"],
     category: "Food",
     gradient: "from-yellow-500 to-orange-500",
+    github: "https://github.com/iconicmask7/",
   },
   {
-    id: 6,
+    id: 8,
     name: "Farmers Fresh Zone",
     subtitle: "Marketplace Platform",
     description:
@@ -70,9 +99,10 @@ const projects = [
     techStack: ["Payment Gateway", "Real-time Tracking", "Admin Panel"],
     category: "Marketplace",
     gradient: "from-lime-500 to-green-500",
+    github: "https://github.com/iconicmask7/",
   },
   {
-    id: 7,
+    id: 9,
     name: "Music Player",
     subtitle: "Local State Management",
     description:
@@ -80,6 +110,7 @@ const projects = [
     techStack: ["Shared Preferences", "Audio Player", "Background Services"],
     category: "Media",
     gradient: "from-indigo-500 to-purple-500",
+    github: "https://github.com/iconicmask7/",
   },
 ];
 
@@ -154,15 +185,32 @@ export const Projects = () => {
                 >
                   <div className="flex items-center justify-between">
                     <Code2 className="h-12 w-12 text-white" />
-                    <a
-                      href="https://github.com/iconicmask7/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`View ${project.name} on GitHub`}
-                      onClick={(e) => e.stopPropagation()} // Prevents card click events
-                    >
-                      <ExternalLink className="h-6 w-6 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
-                    </a>
+                    <div className="flex gap-3">
+                      {project.github && (
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`View ${project.name} on GitHub`}
+                          onClick={(e) => e.stopPropagation()}
+                          className="hover:scale-110 transition-transform"
+                        >
+                          <Code2 className="h-6 w-6 text-white/80 hover:text-white transition-colors" />
+                        </a>
+                      )}
+                      {project.playStore && (
+                        <a
+                          href={project.playStore}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`View ${project.name} on Play Store`}
+                          onClick={(e) => e.stopPropagation()}
+                          className="hover:scale-110 transition-transform"
+                        >
+                          <ExternalLink className="h-6 w-6 text-white/80 hover:text-white transition-colors" />
+                        </a>
+                      )}
+                    </div>
                   </div>
                   <h3 className="text-2xl font-bold text-white mt-4">
                     {project.name}
