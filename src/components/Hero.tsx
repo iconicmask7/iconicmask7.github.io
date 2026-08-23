@@ -20,7 +20,7 @@ const useUISounds = () => {
       gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.04);
       osc.start();
       osc.stop(ctx.currentTime + 0.04);
-    } catch (e) {}
+    } catch (e) { }
   };
 
   const playClick = () => {
@@ -39,7 +39,7 @@ const useUISounds = () => {
       gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
       osc.start();
       osc.stop(ctx.currentTime + 0.15);
-    } catch (e) {}
+    } catch (e) { }
   };
 
   return { playHover, playClick };
@@ -171,7 +171,7 @@ export const Hero = () => {
   const scrambledRole = useScramble(currentRole);
 
   const stats = [
-    { value: 2, suffix: "+", label: "Years Experience" },
+    { value: 3, suffix: "+", label: "Years Experience" },
     { value: 15, suffix: "%", label: "Performance Boost" },
     { value: 40, suffix: "%", label: "Code Reduction" },
   ];
@@ -284,9 +284,9 @@ export const Hero = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-inter relative z-10 transition-colors duration-300">
-            Accomplished Flutter Developer with <span className="text-foreground font-bold">2+ years</span> of experience in the complete mobile development lifecycle. 
-            Mastery in <span className="text-cyan-600 dark:text-cyan-400 font-mono">Dart</span>, 
-            <span className="text-blue-600 dark:text-blue-400 font-mono"> Riverpod</span>, and <span className="text-indigo-600 dark:text-indigo-400 font-mono">BLoC</span>. 
+            Accomplished Flutter Developer with <span className="text-foreground font-bold">3+ years</span> of experience in the complete mobile development lifecycle.
+            Mastery in <span className="text-cyan-600 dark:text-cyan-400 font-mono">Dart</span>,
+            <span className="text-blue-600 dark:text-blue-400 font-mono"> Riverpod</span>, and <span className="text-indigo-600 dark:text-indigo-400 font-mono">BLoC</span>.
             Engineering zero-latency mobile solutions from ideation to scaled production.
             <br />
             <span className="text-sm text-foreground/50 mt-4 block font-mono">
@@ -363,7 +363,7 @@ export const Hero = () => {
                 <AnimatedCounter from={0} to={stat.value} />
                 <span>{stat.suffix}</span>
               </div>
-              
+
               <div className="text-sm font-medium text-muted-foreground/80 group-hover:text-foreground transition-colors duration-300 mt-2">
                 {stat.label}
               </div>
@@ -385,7 +385,7 @@ export const Hero = () => {
             Scroll Down
           </span>
           <div className="w-[1px] h-12 bg-gradient-to-b from-transparent via-cyan-500 to-transparent relative overflow-hidden">
-            <motion.div 
+            <motion.div
               animate={{ y: [-20, 48] }}
               transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
               className="absolute top-0 left-0 w-full h-4 bg-foreground/50 filter blur-[2px]"

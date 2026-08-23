@@ -6,22 +6,16 @@ const education = [
     degree: "B.Sc. in Computer Science",
     institution: "University of Kerala",
     duration: "2020 – 2023",
-    grade: "6.1 CGPA",
-    percentage: 61,
   },
   {
     degree: "Higher Secondary (Computer Science)",
     institution: "St. John's HSS Mattom",
     duration: "2018 – 2020",
-    grade: "77%",
-    percentage: 77,
   },
   {
     degree: "SSLC",
     institution: "HSS Chettikulangara",
     duration: "2017 – 2018",
-    grade: "90%",
-    percentage: 90,
   },
 ];
 
@@ -122,18 +116,6 @@ export const Education = () => {
                       <span className="text-sm text-muted-foreground">
                         {edu.duration}
                       </span>
-                      <span className="text-sm font-semibold text-primary">
-                        {edu.grade}
-                      </span>
-                    </div>
-                    <div className="h-2 bg-muted/50 rounded-full overflow-hidden">
-                      <motion.div
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${edu.percentage}%` }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 1, delay: 0.2 }}
-                        className="h-full bg-gradient-to-r from-primary to-secondary rounded-full"
-                      />
                     </div>
                   </div>
                 </motion.div>
